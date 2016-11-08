@@ -25,27 +25,13 @@
                     <value xml:lang="en-US">Add-On example</value>
                 </prop>
                 <node oor:name="Submenu">
-		    <node oor:name="m1" oor:op="replace">
-                        <prop oor:name="URL" oor:type="xs:string">
-                            <value>vnd.sun.star.job:alias=RegisterInterceptorJobImpl</value>
-                        </prop>
-                        <prop oor:name="Title" oor:type="xs:string">
-                            <value xml:lang="en-US">Enable CM1 (ALIAS)</value>
-                        </prop>
-                        <prop oor:name="Target" oor:type="xs:string">
-                            <value>_self</value>
-                        </prop>
-                        <prop oor:name="Context" oor:type="xs:string">
-                            <value>com.sun.star.sheet.SpreadsheetDocument</value>
-                        </prop>
-                    </node>
 		    <node oor:name="m2" oor:op="replace">
                         <prop oor:name="URL" oor:type="xs:string">
                             <!-- <value>vnd.sun.star.job:event=onEnableInterceptClick1</value> -->
 			    <value>vnd.sun.star.job:event=onEnableInterceptClick1</value>
                         </prop>
                         <prop oor:name="Title" oor:type="xs:string">
-                            <value xml:lang="en-US">Enable CM</value>
+                            <value xml:lang="en-US">Enable context menu</value>
                         </prop>
                         <prop oor:name="Target" oor:type="xs:string">
                             <value>_self</value>
